@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Capsule Corp</string>
+    <string name="description">The Capsule Corporation is a company founded in Age 712, and is run by Dr. Brief. The corporation is based around, and takes its name from, the Hoi-Poi Capsules invented by Dr. Brief himself. Due to the invention and production of the extremely popular and useful capsules, the Capsule Corporation is one of the largest, richest and most influential companies in the world. Although Capsule Corp"'"s primary product is the DynoCaps technology, the company also develops and produces many of the items found within capsules. This can be seen by vehicles and other items bearing the Capsule Corporation logo.</string>
+    <string name="action_settings">Settings</string>
+    <string name="opening_hours">Opened from 8 am to 10 pm. Closed on weekends.</string>
+    <string name="call_number">+123/212345678</string>
+    <string name="address">WST 3338926 K, West City</string>
+    <string name="email">capsulecorp@capscorp.com</string>
+    <string name="website">http://dragonball.wikia.com/wiki/Capsule_Corporation</string>
+</resources>
