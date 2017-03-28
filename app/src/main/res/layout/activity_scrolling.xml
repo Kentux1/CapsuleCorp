@@ -44,6 +44,7 @@
         app:elevation="0dp"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        android:onClick="emailButtonClick"/>
 
 </android.support.design.widget.CoordinatorLayout>
