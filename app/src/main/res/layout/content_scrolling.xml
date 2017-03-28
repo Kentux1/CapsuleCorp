@@ -40,7 +40,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/calendar" />
+                app:srcCompat="@drawable/calendar"
+                tools:ignore="ContentDescription" />
 
             <TextView
                 android:id="@+id/textView"
@@ -126,7 +127,7 @@
                 android:fontFamily="monospace"
                 android:text="@string/email"
                 android:textColor="@android:color/black"
-                android:textSize="18sp" />
+                android:textSize="18sp"/>
         </LinearLayout>
 
         <LinearLayout
