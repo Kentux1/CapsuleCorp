@@ -51,17 +51,4 @@ public class ScrollingActivity extends AppCompatActivity {
             startActivity(emailButton);
         }
     }
-    public void phoneButtonClick (View view) {
-        Intent phoneButton = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", getString(R.string.call_number), null));
-        if (phoneButton.resolveActivity(getPackageManager()) != null) {
-            startActivity(phoneButton);
-        }
-    }
-    public void openBrowser (View view) {
-        Intent websiteButton = new Intent(Intent.ACTION_VIEW);
-        websiteButton.setData(Uri.parse("http://dragonball.wikia.com/wiki/Capsule_Corporation"));
-        if (websiteButton.resolveActivity(getPackageManager()) != null) {
-            startActivity(websiteButton);
-        }
-    }
 }
